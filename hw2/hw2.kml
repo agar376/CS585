@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+	<Document>
+		<Style id="blueDot">
+			<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+		</Style>
+		<Placemark><name>Home</name>
+		<styleUrl>#blueDot</styleUrl><Point><coordinates>-118.288235,34.028985</coordinates></Point>
+	</Placemark>
+	<Placemark><name>Lyon_Centre</name>
+	<styleUrl>#blueDot</styleUrl><Point><coordinates>-118.288035,34.024287</coordinates></Point>
+</Placemark>
+<Placemark><name>Bookstore</name>
+<styleUrl>#blueDot</styleUrl><Point><coordinates>-118.286431,34.020778</coordinates></Point>
+</Placemark>
+<Placemark><name>Leavey</name>
+<styleUrl>#blueDot</styleUrl><Point><coordinates>-118.282545,34.021699</coordinates></Point>
+</Placemark>
+<Placemark><name>Jeff/Fig</name>
+<styleUrl>#blueDot</styleUrl><Point><coordinates>-118.280126,34.021901</coordinates></Point>
+</Placemark>
+<Placemark><name>Expo/Fig</name>
+<styleUrl>#blueDot</styleUrl><Point><coordinates>-118.282349,34.018401</coordinates></Point>
+</Placemark>
+<Placemark><name>Expo/Vermont</name>
+<styleUrl>#blueDot</styleUrl><Point><coordinates>-118.291478,34.018375</coordinates></Point>
+</Placemark>
+<Placemark><name>Jeff/Vermont</name>
+<styleUrl>#blueDot</styleUrl><Point><coordinates>-118.291486,34.025437</coordinates></Point>
+</Placemark>
+<Placemark><name>SGM_123</name>
+<styleUrl>#blueDot</styleUrl><Point><coordinates>-118.289304,34.021224</coordinates></Point>
+</Placemark>
+
+<Placemark>
+	<Style id="polycolor"> 
+		<LineStyle>  
+			<color>#ff0000ff</color>
+			<width>5</width>
+		</LineStyle> 
+      <PolyStyle>
+            <color>50143EFF</color>
+      </PolyStyle>
+   	</Style>
+	<name>Spatial</name>
+	<Polygon>
+		<styleUrl>#polycolor</styleUrl>
+        <tessellate>1</tessellate>
+		<extrude>1</extrude>
+		<visibility>1</visibility>
+		<altitudeMode>clampToGround</altitudeMode>
+		<outerBoundaryIs>
+			<LinearRing>
+				<coordinates>
+					-118.291478,34.018375
+					-118.291486,34.025437
+					-118.288235,34.028985
+					-118.280126,34.021901
+					-118.282349,34.018401
+					-118.291478,34.018375
+				</coordinates>
+			</LinearRing>
+		</outerBoundaryIs>
+	</Polygon>
+</Placemark>
+
+<Placemark>
+	<Style> 
+		<LineStyle>  
+			<color>#5014F000</color>
+			<width>10</width>
+		</LineStyle> 
+	</Style>
+	<name>Nearest Neighbours</name>
+	<LineString>
+        <extrude>1</extrude>
+		<altitudeMode>clampToGround</altitudeMode>
+        <tessellate>1</tessellate>
+        <coordinates>
+			-118.288235,34.028985 -118.288035,34.024287
+			-118.288235,34.028985 -118.291486,34.025437
+			-118.288235,34.028985 -118.289304,34.021224
+		</coordinates>
+	</LineString>
+</Placemark>
+
+
+</Document></kml>
+
